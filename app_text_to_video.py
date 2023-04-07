@@ -54,7 +54,7 @@ def create_demo(model: Model):
                         video_length = gr.Number(
                             label="Video length", value=8, precision=0)
 
-                    n_prompt = gr.Textbox(
+                    n_prompt = gr.Textbox(old lady walking in the park
                         label="Optional Negative Prompt", value='')
                     seed = gr.Slider(label='Seed',
                                      info="-1 for random seed on each run. Otherwise, the seed will be fixed.",
